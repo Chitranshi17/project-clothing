@@ -1,0 +1,344 @@
+
+/* Theming CSS */
+  /* Header color */
+  .u-org--header {
+    background-color: #FFFFFF !important;
+  }
+
+
+  /* Header text color */
+  .u-org--header {
+    color: #000000;
+  }
+
+  button.u-org--header.appheader__button:not(.appheader__categoriesbutton):hover,
+  button.u-org--header.appheader__button:not(.appheader__categoriesbutton):active {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+  }
+
+  button.u-org--header:not(.appnav__link):hover,
+  button.u-org--header:not(.appnav__link):active,
+  button.u-org--header:not(.appnav__link):focus {
+    color: #000000;
+  }
+
+  button.u-org--header:not(.appnav__link):not(.appheader__categoriesbutton) {
+    border-color: #000000 !important;
+  }
+
+  button.u-org--header.appheader__categoriesbutton,
+  input[type="search"].u-org--header {
+    border-color: rgba(0, 0, 0, 0.3) !important;
+  }
+
+  button.u-org--header.appheader__categoriesbutton:hover,
+  button.u-org--header.appheader__categoriesbutton:active,
+  button.u-org--header.appheader__categoriesbutton:focus,
+  input[type="search"].u-org--header:hover,
+  input[type="search"].u-org--header:active {
+    border-color: rgba(0, 0, 0, 0.5) !important;
+  }
+
+  input[type="search"].u-org--header:focus {
+    border-color: transparent !important;
+  }
+
+  .u-org--header .search__input--appheader:not(:focus):-ms-input-placeholder {
+    color: #000000;
+  }
+
+  .u-org--header .search__input--appheader:not(:focus)::-ms-input-placeholder {
+    color: #000000;
+  }
+
+  .u-org--header .search__input--appheader:not(:focus)::placeholder {
+    color: #000000;
+  }
+
+
+  /* Organization color */
+  .u-orgcolor--color,
+  .u-orgcolor--hovercolor:hover {
+    color: #B900B4 !important;
+  }
+  .u-orgcolor--bg,
+  .u-orgcolor--hoverbg:hover {
+    background-color: #B900B4 !important;
+  }
+  .u-orgcolor--border,
+  .u-orgcolor--border:link,
+  .u-orgcolor--border:visited,
+  .u-orgcolor--border:hover,
+  .u-orgcolor--border:active,
+  .u-orgcolor--border:focus {
+    border-color: #B900B4;
+    color: #B900B4;
+  }
+  .u-orgcolor--borderonly,
+  .u-orgcolor--borderonly:link,
+  .u-orgcolor--borderonly:visited,
+  .u-orgcolor--borderonly:hover,
+  .u-orgcolor--borderonly:active,
+  .u-orgcolor--borderonly:focus {
+    border-color: #B900B4;
+  }
+  .u-orgcolor--borderhover:hover,
+  .u-orgcolor--borderhover:hover {
+    border-color: #B900B4;
+  }
+  .u-orgcolor--svgfill {
+    color: #B900B4;
+    fill: #B900B4;
+  }
+  .u-orgcolor--svgstroke {
+    color: #B900B4;
+    stroke: #B900B4;
+  }
+  .u-orgcolor--svgall {
+    color: #B900B4;
+    fill: #B900B4;
+    stroke: #B900B4;
+  }
+  .u-org--svgactive[data-active="true"],
+  .u-org--svgactive:hover {
+    color: #B900B4 !important;
+    stroke: #B900B4 !important;
+  }
+  .u-org--barchart:after {
+    background-color: #B900B4 !important;
+  }
+  .u-org--piechart {
+    color: rgba(0, 0, 0, 0.15);
+    stroke: #B900B4;
+  }
+  .u-org--tooltip {
+    background-color: #B900B4;
+  }
+  .u-org--tooltiptop:before {
+    border-top-color: #B900B4;
+  }
+  .u-org--tooltipright:before {
+    border-right-color: #B900B4;
+  }
+  .u-org--tooltipbottom:before {
+    border-bottom-color: #B900B4;
+  }
+  .u-org--tooltipleft:before {
+    border-left-color: #B900B4;
+  }
+  .updatecard__heading--new:before {
+    background-color: #B900B4;
+  }
+  .session:before {
+    background-color: #B900B4;
+  }
+  .activityprogress__value {
+    background-color: #B900B4;
+  }
+}
+  body[data-custom-ui="facebook"] .iconbutton,
+  body[data-custom-ui="facebook"] .comments__headerbutton, {
+    color: #B900B4;
+  }
+
+  .u-org--catalogflag {
+    border-top-color: #B900B4;
+  }
+
+  .u-org--catalogflagsearch {
+    background-image: linear-gradient(225deg, #B900B4 50%, transparent 50%);
+  }
+
+  .u-org--catalogflagbg {
+    background-color: #B900B4;
+  }
+  .u-org--catalogflagfill {
+    color: #B900B4;
+    fill: #B900B4;
+  }
+
+  .u-org--tabactive,
+  .u-org--tab:hover,
+  .u-org--tab:active,
+  .u-org--tab:focus {
+    border-color: #B900B4;
+  }
+  .link--primary,
+  .u-org--link,
+  .u-org--link:link,
+  .u-org--link:visited,
+  .u-org--link:hover,
+  .u-org--link:active,
+  .u-org--link:focus {
+    color: #B900B4;
+  }
+  .u-org--linkhover:hover,
+  .u-org--linkhover:active,
+  .u-org--linkhover:focus {
+    color: #B900B4;
+  }
+
+  body[data-custom-ui="facebook"] .button--primary:not([disabled]),
+  body[data-custom-ui="facebook"] .button--primary:link,
+  body[data-custom-ui="facebook"] .button--primary:visited,
+  body[data-custom-ui="facebook"] .button--primary:hover,
+  body[data-custom-ui="facebook"] .button--primary:active,
+  body[data-custom-ui="facebook"] .button--primary:focus,
+  body[data-custom-ui="facebook"] .blankslate .button,
+  body[data-custom-ui="facebook"] .coursebar__btn--active,
+  body[data-custom-ui="facebook"] .coursebar__btn--active:hover,
+  body[data-custom-ui="facebook"] .coursebar__btn--active:focus,
+  body[data-custom-ui="facebook"] .tagbutton--selected:not(.tagbutton--taxonomy) {
+    background-color: #B900B4 !important;
+    border-color: #B900B4 !important;
+    color: #fff !important;
+  }
+
+  body[data-custom-ui="facebook"] .button--secondary,
+  body[data-custom-ui="facebook"] .button--secondary:link,
+  body[data-custom-ui="facebook"] .button--secondary:visited,
+  body[data-custom-ui="facebook"] .button--secondary:hover,
+  body[data-custom-ui="facebook"] .button--secondary:active,
+  body[data-custom-ui="facebook"] .button--secondary:focus,
+  body[data-custom-ui="facebook"] .dropdown__trigger:not(.dropdown__trigger--link) {
+    background-color: transparent;
+    border-color: #B900B4;
+    color: #B900B4;
+  }
+  body[data-custom-ui="facebook"] .dropdown__trigger:not(.dropdown__trigger--link) {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.07 4.54"><path d="M4.07,4.54 C3.938,4.538 3.812,4.484 3.72,4.39 L0.18,0.85 C-0.016,0.654 -0.016,0.336 0.18,0.14 C0.376,-0.056 0.694,-0.056 0.89,0.14 L4.07,3.32 L7.25,0.14 C7.446,-0.056 7.764,-0.056 7.96,0.14 C8.156,0.336 8.156,0.654 7.96,0.85 L4.42,4.39 C4.328,4.484 4.202,4.538 4.07,4.54 z" fill="#B900B4" /></svg>');
+  }
+
+  .tooltip {
+    background-color: #B900B4;
+  }
+  .tooltip--left::before {
+    border-left-color: #B900B4;
+  }
+  .tooltip--right::before {
+    border-right-color: #B900B4;
+  }
+  .tooltip--bottom::before,
+  .tooltip--bottom-left::before,
+  .tooltip--bottom-right::before {
+    border-bottom-color: #B900B4;
+  }
+  .tooltip--top::before,
+  .tooltip--top-left::before,
+  .tooltip--top-right::before {
+    border-top-color: #B900B4;
+  }
+  .checkbox--primary .checkbox__input:checked + .checkbox__ui {
+    background-color: #B900B4;
+    border: 2px solid #B900B4;
+  }
+  .question .checkbox__input:checked + .checkbox__ui {
+    background-color: #B900B4;
+    border: 1px solid #B900B4;
+  }
+  .question .radio__input:checked + .radio__ui {
+    border-color: #B900B4;
+  }
+  .question .radio__input:checked + .radio__ui::before {
+    background-color: #B900B4;
+  }
+  .assessment__completedicon, .assessment__gradingicon {
+    background-color: #B900B4;
+  }
+  .enrollmentmsg__image.enrollmentmsg__image--complete  {
+    background-color: #B900B4;
+  }
+
+  .rank__listitem .radio__input:checked + .radio__ui {
+    border-color: #B900B4;
+  }
+  .rank__listitem .radio__input:checked + .radio__ui::before {
+    background-color: #B900B4;
+  }
+  .sharelinks__link:hover,
+  .sharelinks__link:focus,
+  .sharelinks__link.button:hover,
+  .sharelinks__link.button:focus {
+    color: #B900B4;
+  }
+  .rating input[type="radio"]:not([disabled]) + label {
+    color: #B900B4;
+  }
+  .courselist__item[data-status="completed"] .courselist__marker,
+  .pathmenu__sectionitem[data-status="completed"] .pathmenu__itemmarker {
+    color: #B900B4;
+  }
+  .pageoutline__currentlink,
+  .pageoutline__currentlink:hover,
+  .pageoutline__currentlink:focus {
+    color: #B900B4;
+  }
+  .tagbutton--selected,
+  .tagbutton--selected:hover,
+  .tagbutton--selected:active,
+  .tagbutton--selected.tagbutton--taxonomy:hover,
+  .tagbutton--selected.tagbutton--taxonomy:active {
+    border-color: inherit !important;
+    background-color: #B900B4;
+  }
+  .tagbutton--selected.tagbutton--taxonomy {
+    background-color: #B900B40c !important;
+    border-color: #B900B4 !important;
+  }
+  .datepicker .pika-prev,
+  .datepicker .pika-next {
+    border: 1px solid #B900B4;
+  }
+  .datepicker .pika-prev,
+  .datepicker .is-rtl .pika-next {
+    background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2030%2025'%20version%3D'1.1'%3E%3Cpolyline%20fill%3D'none'%20stroke%3D'%23B900B4'%20stroke-width%3D'2'%20stroke-linecap%3D'round'%20stroke-linejoin%3D'round'%20points%3D'16.7%209.4%2011.6%2012.4%2016.6%2015.3'%2F%3E%3C%2Fsvg%3E");
+  }
+  .datepicker .pika-next,
+  .datepicker .is-rtl .pika-prev {
+    background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20version%3D'1.1'%20viewBox%3D'0%200%2030%2025'%3E%3Cpath%20d%3D'M12.6%209.5L17.7%2012.4%2012.6%2015.3'%20fill-opacity%3D'0'%20stroke%3D'%23B900B4'%20stroke-width%3D'2'%20stroke-linecap%3D'round'%20stroke-linejoin%3D'round'%2F%3E%3C%2Fsvg%3E");
+  }
+  .datepicker .is-today .pika-button {
+    color: #B900B4;
+  }
+  .datepicker .is-selected .pika-button,
+  .datepicker .is-selected .pika-button:hover {
+    background: #B900B4;
+  }
+  .banner__icon {
+    color: #B900B4;
+    background: #B900B4;
+  }
+
+  /* Branding logo */
+  .header__titleicon.u-org--titleicon {
+    max-width: 120px;
+  }
+  @media (min-width: 370px) {
+    .header__titleicon.u-org--titleicon {
+      max-width: 160px;
+    }
+  }
+  .u-org--titleicon + .header__titletext,
+  .u-org--titleicon + .sidemenu__titletext {
+    display: none;
+  }
+  .u-org--header .header__titlelink {
+    text-overflow: clip;
+  }
+
+  /* Custom CSS */
+  /* Hide filter options on catalog browse page */
+div#category-filter-panel.filterlayout__filters {
+    display: none;
+}
+/* Hide More Details link on All Events page */
+button.session__metaitem.button.button--link.session__metalink {
+    display: none;
+}
+
+/* Hide activity metadata */
+ul.activitycard__meta {
+    display: none;
+}
+
+li.categoriesmenu__listitem.categoriesmenu__listitem--nosubitems {display: none;}
